@@ -3,8 +3,6 @@
 name: Java CI #название Workflow
  
 on: [push] # когда срабатывает (на push)
-  # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
 
 jobs: # какие задачи делаем
   build: # сборка
